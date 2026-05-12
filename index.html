@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea house</title>
+    <link rel="stylesheet" href="./style/style.css">
 
     <!-- Tailwind Cdn -->
 
@@ -18,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="manrope_font">
     <!-- banner section start here| -->
     <div class="parent_div flex flex-col md:flex-row justify-between  min-h-[200px] max-w-[1250px] mx-auto">
         <div class="left_div">
@@ -107,7 +108,7 @@
 
     <div
         class="parent_div  bg-gradient-to-r from-[#ff8938] to-[#ff0000] max-w-[1250px] mx-auto mt-[100px] h-[1000px] md:h-[600px] flex flex-col md:flex-row gap-4 p-5 rounded-xl">
-        <div class="left_div text-white h-full md:w-1/2  flex justify-center items-center">
+        <div class="left_div text-white h-full md:w-1/2  flex justify-center items-center bg-[url('./images/bg_cup.png')] bg-no-repeat bg-bottom">
             <div>
                 <h1 class="text-5xl font-bold">Meet Our Super <br> Clients</h1>
                 <p class="mt-8 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
@@ -148,6 +149,59 @@
         </div>
 
     </div>
+
+    <!-- footer section start here -->
+
+<footer class="bg-[#ffe7e6] py-[50px] mt-[100px]">
+        <div class="footer_parent mt-[100px]  min-h-[200px] max-w-[1250px] mx-auto ">
+        <div class="flex items-center justify-between">
+            <img src="./images/cup.png" alt="">
+            <div class="flex items-center">
+                <p class="mr-8">Ready to get strated?</p>
+                <button
+                    class="w-[200px] text-xl  text-white h-[64px] rounded-lg bg-gradient-to-r from-[#ff8938] to-[#ff0000]">Get
+                    Started</button>
+            </div>
+        </div>
+        <div class=" flex flex-col items-center text-center md:text-left md:flex-row justify-between mt-[50px]">
+            <div class="">
+                <p class="font-semibold text-lg">Quick Links</p>
+                <p class="mt-2">Home</p>
+                <p class="mt-2">About Us</p>
+                <p class="mt-2">Insurance</p>
+                <p class="mt-2">Privacy Policy</p>
+            </div>
+
+            <div class="">
+                <p class="font-semibold text-lg">Our Service</p>
+                <p class="mt-2">Life Insurance</p>
+                <p class="mt-2">Car Insurance</p>
+                <p class="mt-2">Health Insurance</p>
+                <p class="mt-2">House Insurance</p>
+            </div>
+
+            <div class="">
+                <p class="font-semibold text-lg">Help</p>
+                <p class="mt-2">FAQs</p>
+                <p class="mt-2">Contact Us</p>
+
+            </div>
+
+            <div class="">
+                <p class="font-semibold text-xl">Subscribe to our <br> newsletter</p>
+                <input type="text" placeholder="Email Adress" class="border-b-1 outline-none pb-2 mt-5">
+                <button class="font-bold text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r from-[#ff8938] to-[#ff0000]"><i class="fa-solid fa-angles-right"></i></button>
+                <div class="mt-5">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+            </div>
+
+        </div>
+        <p class="text-center mt-[50px]">© 2027 UIDesign.to - All rights reserved.</p>
+    </div>
+</footer>
 </body>
 
 </html
